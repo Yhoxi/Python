@@ -3,9 +3,9 @@ chcp 65001 >nul
 setlocal
 
 REM 设置变量
-set outputDir=D:\ai\sd\
+set outputDir=
 set scriptPath=.\tagger.py
-set modelDir=.\models\eva02-large-tagger-v3
+set modelDir=.\models\
 set batchSize=1
 set threshold=0.27
 set captionExtension=.txt
